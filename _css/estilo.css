@@ -1,0 +1,249 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root { 
+    --cor0:#84A9C0;
+    --cor1:#0b1d51;
+    --cor2:#06AA48;
+    --cor3:#0B1D51ad;
+    --cor4:#06AA48ad;
+}
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	color: rgba(0,0,0,1);
+}
+header#cabecalho {
+    min-width: 350px;
+    max-width: 1000px;
+    border-bottom: 1px #000000 solid;
+    height: 220px;
+    background-color: var(--cor2);
+    border-radius: 10px 10px 0px 0px;
+    outline: solid;
+    outline-color: #c9c5c5;
+}
+header#cabecalho picture {
+    position: relative;
+    left: -100px;
+    top: -40px;
+}
+nav#menu {
+    justify-content: center;
+}
+nav#menu ul {
+    min-width: 100px;	
+    list-style: none;
+    text-align: center;
+}
+nav#menu li {
+    width:50%;
+    padding: 4px;
+    margin: 4px;
+    transition: background-color .5s;
+    color:#ffffff;
+    font-size: 12pt;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: -300px;
+    left: 180px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #ffffffad;	
+}
+nav#menu li:hover {
+    background-color: var(--cor0);
+}
+nav#menu a:hover {
+    color: #000000;
+}
+nav#menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+main {
+    min-width: 350px;
+    max-width: 600px;	
+    float: left;
+    border-right: 5px solid var(--cor1);
+}
+div.picture {
+    margin: 20px 60px;
+}
+div.imagem {
+    margin-left: 20px;
+}
+header#noticia h1 {
+    width: 95%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    color: #000000;
+    margin: 20px 10px 0px 10px;
+    text-align: center;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    border-style: groove;
+    border-color: var(--cor3);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header#noticia h2 {
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #606060;
+    text-align: right;
+    background-color: #dddddd63;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+header#noticia h2.titulo {
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 14pt;
+    color: #ffffff;
+    margin: 20px 10px 0px 10px;
+    margin-bottom: 10px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    border-style: groove;
+    border-color: var(--cor2);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header#noticia h3 {
+    width: 95%;
+    font-size: 10pt;
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: right;
+}
+header#noticia h4 {
+    width: 95%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-indent: 20px;
+}
+aside {
+    width: 380px;
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px tgba(0,0,0,.5);
+}
+aside h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    color: #000000;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    border-style: groove;
+    border-color: var(--cor3);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+aside h2 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 14pt;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    border-style: groove;
+    border-color:var(--cor4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer#rodape {
+		min-width: 350px;
+		max-width: 1000px;
+		clear: both;
+        padding: 10px;
+		border-top: 1px solid #606060;
+		border-bottom: 1px solid #606060;
+        background-color:var(--cor2);
+		font-family: 'Outfit', sans-serif;
+		font-weight: bold;
+		border-radius: 0px 0px 10px 10px;
+		outline: solid;
+		outline-color: #c9c5c5;
+	}
+footer#rodape a {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 10px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    border-style: groove;
+    border-color: var(--cor3);
+    justify-content: center;
+}
+.botao1 {
+    width: 40px;
+    height: 40px;
+    background: url("../_fotos/_logos/logoyoutube.png") no-repeat;
+    background-position: center;
+    background-color: white;
+    vertical-align: middle;
+    border-radius: 20px;
+    border: 1px solid transparent;		
+}
+.botao2 {
+    width: 40px;
+    height: 40px;
+    background: url("../_fotos/_logos/logoinsta.png") no-repeat;
+    background-position: center;
+    background-color: white;
+    vertical-align: middle;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+.botao3 {
+    width: 40px;
+    height: 40px;
+    background: url("../_fotos/_logos/logott.png") no-repeat;
+    background-position: center;
+    background-color: white;
+    vertical-align: middle;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+.botao4 {
+    width: 40px;
+    height: 40px;
+    background: url("../_fotos/_logos/logotiktok.png") no-repeat;
+    background-position: center;
+    background-color: white;
+    vertical-align: middle;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+footer#rodape p {
+    font-weight: normal;
+    text-align:center;
+    margin: 3px;
+}
