@@ -76,9 +76,6 @@ main {
     float: left;
     border-right: 5px solid var(--cor1);
 }
-div.picture {
-    margin: 20px 60px;
-}
 div.imagem {
     margin-left: 20px;
 }
