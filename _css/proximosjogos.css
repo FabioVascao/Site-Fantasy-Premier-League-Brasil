@@ -139,30 +139,33 @@ header#noticia h4 {
     margin-bottom: 5px;
 }
 footer#rodape {
-		min-width: 350px;
-		max-width: 1000px;
-		clear: both;
-        padding: 10px;
-		border-top: 1px solid #606060;
-		border-bottom: 1px solid #606060;
-        background-color:var(--cor2);
-		font-family: 'Outfit', sans-serif;
-		font-weight: bold;
-		border-radius: 0px 0px 10px 10px;
-		outline: solid;
-		outline-color: #c9c5c5;
-	}
+    min-width: 350px;
+    max-width: 1000px;
+    clear: both;
+    padding: 10px;
+    border-top: 1px solid #606060;
+    border-bottom: 1px solid #606060;
+    background-color:var(--cor2);
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    border-radius: 0px 0px 10px 10px;
+    outline: solid;
+    outline-color: #c9c5c5;
+}
 footer#rodape a {
     text-align: justify;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 15px;
+    padding: 20px;
     margin-right: 10px;
+    border-radius: 50%;
+}
+footer#rodape button:hover {
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    box-shadow: 5px 5px 10px black;
     background-color: var(--cor1);
-    border-radius: 10px;
-    border-style: groove;
-    border-color: var(--cor3);
-    justify-content: center;
+    transform: translate(-3px;-3px);
+    transition: transform 0.3s;
 }
 .botao1 {
     width: 40px;
