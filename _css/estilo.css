@@ -199,7 +199,7 @@ footer#rodape button:hover {
     border: 1px solid rgba(0, 0, 0, 0.301);
     box-shadow: 5px 5px 10px black;
     background-color: var(--cor1);
-    transform: translate(-3px;-3px);
+    transform: translate(-3px, -3px);
     transition: transform 0.3s;
 }
 .botao1 {
