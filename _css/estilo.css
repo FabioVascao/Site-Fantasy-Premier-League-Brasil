@@ -76,9 +76,6 @@ main {
     float: left;
     border-right: 5px solid var(--cor1);
 }
-div.imagem {
-    margin-left: 20px;
-}
 header#noticia h1 {
     width: 95%;
     font-family: 'Roboto', sans-serif;
