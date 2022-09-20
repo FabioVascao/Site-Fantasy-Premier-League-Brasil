@@ -33,7 +33,7 @@ header#cabecalho {
 }
 header#cabecalho picture {
     position: relative;
-    left: -100px;
+    left: -60px;
     top: -40px;
 }
 nav#menu {
@@ -53,8 +53,8 @@ nav#menu li {
     font-size: 12pt;
     font-family: 'Outfit', sans-serif;
     position: relative;
-    top: -300px;
-    left: 180px;
+    top: -290px;
+    left: 320px;
     background-color: var(--cor1);
     border-radius: 10px;
     border-style: groove;
@@ -137,78 +137,4 @@ header#noticia h4 {
     text-align: justify;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-footer#rodape {
-    min-width: 350px;
-    max-width: 1000px;
-    clear: both;
-    padding: 10px;
-    border-top: 1px solid #606060;
-    border-bottom: 1px solid #606060;
-    background-color:var(--cor2);
-    font-family: 'Outfit', sans-serif;
-    font-weight: bold;
-    border-radius: 0px 0px 10px 10px;
-    outline: solid;
-    outline-color: #c9c5c5;
-}
-footer#rodape a {
-    text-align: justify;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 20px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-footer#rodape button:hover {
-    border: 1px solid rgba(0, 0, 0, 0.301);
-    box-shadow: 5px 5px 10px black;
-    background-color: var(--cor1);
-    transform: translate(-3px;-3px);
-    transition: transform 0.3s;
-}
-.botao1 {
-    width: 40px;
-    height: 40px;
-    background: url("../_fotos/_logos/logoyoutube.png") no-repeat;
-    background-position: center;
-    background-color: white;
-    vertical-align: middle;
-    border-radius: 20px;
-    border: 1px solid transparent;		
-}
-.botao2 {
-    width: 40px;
-    height: 40px;
-    background: url("../_fotos/_logos/logoinsta.png") no-repeat;
-    background-position: center;
-    background-color: white;
-    vertical-align: middle;
-    border-radius: 20px;
-    border: 1px solid transparent;
-}
-.botao3 {
-    width: 40px;
-    height: 40px;
-    background: url("../_fotos/_logos/logott.png") no-repeat;
-    background-position: center;
-    background-color: white;
-    vertical-align: middle;
-    border-radius: 20px;
-    border: 1px solid transparent;
-}
-.botao4 {
-    width: 40px;
-    height: 40px;
-    background: url("../_fotos/_logos/logotiktok.png") no-repeat;
-    background-position: center;
-    background-color: white;
-    vertical-align: middle;
-    border-radius: 20px;
-    border: 1px solid transparent;
-}
-footer#rodape p {
-    font-weight: normal;
-    text-align:center;
-    margin: 3px;
 }
