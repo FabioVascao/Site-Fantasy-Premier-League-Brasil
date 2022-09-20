@@ -78,7 +78,7 @@ main {
     justify-content: center;
 }
 div.picture {
-    margin: 35px 35px;
+    padding-left: 75px;
 }
 header#noticia h1 {
     width: 95%;

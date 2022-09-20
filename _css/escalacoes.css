@@ -209,7 +209,8 @@ header#noticia h2.time {
     font-size: 50pt;
     color: #000000;
     margin: 10px 10px 0px 10px; 
-    border-radius: 10px;   
+    border-radius: 10px;
+    background-color: white;   
 }
 header#noticia h3 {
     width: 95%;
