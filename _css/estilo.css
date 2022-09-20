@@ -142,7 +142,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 20pt;
         color: #000000;
-        margin: 0px 10px 0px 10px;
+        margin: 0px;
         text-align: center;
         background-color: var(--cor2);
         border-radius: 10px;
@@ -156,7 +156,7 @@
         font-size: 14pt;
         font-weight: normal;
         color: #ffffff;
-        margin: 10px 10px 10px 10px;
+        margin: 10px 0px 10px 0px;
         text-align: center;
         background-color: var(--cor1);
         border-radius: 10px;
