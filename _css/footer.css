@@ -19,7 +19,7 @@ footer#rodape {
     border-top: 1px solid #606060;
     border-bottom: 1px solid #606060;
     background-color:var(--cor2);
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-radius: 0px 0px 10px 10px;
 }

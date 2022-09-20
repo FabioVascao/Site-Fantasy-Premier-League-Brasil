@@ -164,7 +164,7 @@ div.picture {
 }
 header#noticia h1 {
     width: 95%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 20pt;
     color: #000000;
     margin: 20px 10px 0px 10px;
@@ -178,7 +178,7 @@ header#noticia h1 {
 }
 header#noticia h2 {
     width: 95%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 10pt;
     font-weight: normal;
     color: #606060;
@@ -189,7 +189,7 @@ header#noticia h2 {
 }
 header#noticia h2.titulo {
     width: 95%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 14pt;
     color: #ffffff;
@@ -204,7 +204,7 @@ header#noticia h2.titulo {
 }
 header#noticia h2.time {
     width: 95%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 50pt;
     color: #000000;
@@ -222,7 +222,7 @@ header#noticia h3 {
 }
 header#noticia h4 {
     width: 95%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 12pt;
     color: black;
