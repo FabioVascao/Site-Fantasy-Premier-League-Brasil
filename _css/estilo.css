@@ -227,30 +227,27 @@
 /* CELULAR */
 @media screen and (max-width:599px) {
     header#cabecalho picture {
-        position: relative;
-        left: -100px;
-        top: -40px;
-        max-width: 99.8%;
+        display: none;
     }
     nav#menu li {
         position: relative;
-        top: -290px;
-        left: 200px;	
+        top: 10px;
+        left: 100px;	
     }
     main {	
         border-right: none;
         float:none;
-        padding-left: 5px;
     }
     div.video {
-        padding-left: 5px;
+        padding-left: 0px;
     }
     aside {
         float: none;
-        padding: 5px;
+        padding: 0px;
         margin-top: 15px;
-        margin-right: auto;
         box-shadow: 2px 2px 2px tgba(0,0,0,.5);
-        padding-left: 40px;
+    }
+    iframe {
+        text-align: center;
     }
 }
