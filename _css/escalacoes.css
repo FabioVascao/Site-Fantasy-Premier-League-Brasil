@@ -66,6 +66,9 @@ nav#menu2 {
     justify-content: center;
     margin-top: 20px;
 }
+span#burguer {
+    display: none;
+}
 nav#menu2 ul {
     list-style: none;
     text-transform: uppercase;
@@ -297,6 +300,27 @@ aside > figure {
         top: -290px;
         left: 200px;	
     }
+    nav#menu2 ul {
+        display: none;
+    }
+    nav#menu2 li {
+        display: block;
+        padding: 10px;
+        margin: 2px;
+        text-align: center;
+    }
+    span#burguer {
+        display: block;
+        background-color: var(--cor1);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+    span#burguer:hover {
+        background-color: var(--cor3);
+        color: black;
+    }
     main {	
         border-right: none;
         float:none;
@@ -329,6 +353,27 @@ aside > figure {
         position: relative;
         top: 10px;
         left: 100px;	
+    }
+    nav#menu2 ul {
+        display: none;
+    }
+    nav#menu2 li {
+        display: block;
+        padding: 10px;
+        margin: 2px;
+        text-align: center;
+    }
+    span#burguer {
+        display: block;
+        background-color: var(--cor1);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+    span#burguer:hover {
+        background-color: var(--cor3);
+        color: black;
     }
     main {	
         border-right: none;
