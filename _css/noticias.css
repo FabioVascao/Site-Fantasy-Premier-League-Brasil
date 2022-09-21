@@ -173,7 +173,8 @@ header#noticia h4 {
     main {	
         border-right: none;
         float:none;
-        padding-left: 5px;
+        padding-left: 0px;
+        margin: auto;
     }
     div.picture {
         padding-left: 0px;
@@ -193,6 +194,7 @@ header#noticia h4 {
         border-right: none;
         float:none;
         padding: 0px;
+        margin: auto;
     }
     div.picture {
         padding: 0px;

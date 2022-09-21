@@ -301,10 +301,12 @@ aside > figure {
         border-right: none;
         float:none;
         padding-left: 5px;
+        margin: auto;
     }
     div.escalacao {
         width: 99%;	
         padding-right: 0px;
+        text-align: center;
     }
     aside {
         width: 99%;
