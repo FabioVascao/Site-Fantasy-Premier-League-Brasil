@@ -84,73 +84,17 @@ nav#menu2 li {
     border-radius: 10px;
     border-style: groove;
     border-color: #7e7c7cad;
+    background-color: #84A9C0;
 }	
 nav#menu2 a {
     color: black;
     text-decoration: none;
 }
-nav#menu2 li.arsenal {
-    background-color: red;
-}
-nav#menu2 li#aston {
-    background-color:#5a3306;
-}
-nav#menu2 li#bourne {
-    background-color:red;
-}
-nav#menu2 li#brentford {
-    background-color:red;
-}
-nav#menu2 li#brighton {
-    background-color:rgb(48, 124, 185);
-}
-nav#menu2 li#chelsea {
-    background-color:blue;
-}
-nav#menu2 li#palace {
-    background-color:red;
-}
-nav#menu2 li#everton {
-    background-color:blue;
-}
-nav#menu2 li#fulham {
-    background-color: #8f918f;
-}
-nav#menu2 li#leeds {
-    background-color:#8f918f;
-}
-nav#menu2 li#leicester {
-    background-color:blue;
-}
-nav#menu2 li#liverpool {
-    background-color:red;
-}
-nav#menu2 li#city {
-    background-color:rgb(48, 124, 185);
-}
-nav#menu2 li#united {
-    background-color:red;
-}
-nav#menu2 li#newcastle {
-    background-color:#8f918f;
-}
-nav#menu2 li#forest {
-    background-color:red;
-}
-nav#menu2 li#south {
-    background-color:red;
-}
-nav#menu2 li#tot {
-    background-color:#8f918f;
-}
-nav#menu2 li#westham {
-    background-color:#5a3306;
-}
-nav#menu2 li#wolves {
-    background-color:yellow;
-}
 nav#menu2 li:hover {
-    text-decoration: underline;
+    background-color: var(--cor1);
+}
+nav#menu2 a:hover {
+    color: white;
 }
 div.escalacao {
     display: block;
@@ -408,6 +352,6 @@ aside > figure {
     }
     header#noticia h4 {
         width: 99%;
-        padding-left: 5px;
+        padding-left: 2px;
     }
 }
