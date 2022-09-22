@@ -69,6 +69,12 @@ nav#menu2 {
 span#burguer {
     display: none;
 }
+h5 {
+    font-size: 12pt;
+    margin-top: 2px;
+    font-weight: 400;
+    font-stretch: expanded;
+}
 nav#menu2 ul {
     list-style: none;
     text-transform: uppercase;
@@ -254,7 +260,8 @@ aside > figure {
         text-align: center;
     }
     span#burguer {
-        display: block;
+        display: flex;
+        justify-content: center;
         background-color: var(--cor1);
         color: white;
         text-align: center;
@@ -308,7 +315,8 @@ aside > figure {
         text-align: center;
     }
     span#burguer {
-        display: block;
+        display: flex;
+        justify-content: center;
         background-color: var(--cor1);
         color: white;
         text-align: center;
