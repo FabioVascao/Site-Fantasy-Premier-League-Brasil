@@ -107,6 +107,7 @@ div.escalacao {
     width: 490px;	
     float: left;
     padding-right: 20px;
+    margin-bottom: 10px;
 }
 main {
     min-width: 350px;
@@ -178,6 +179,7 @@ header#noticia h4 {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 12pt;
+    line-height: 25px;
     color: black;
     text-align: justify;
     margin-top: 5px;
